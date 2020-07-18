@@ -37,9 +37,9 @@ Listado de tutoriales con su ubicación en codepen.io
 | 5  | Configurar ventanas emergentes (pop-ups)    | https://codepen.io/cidryl/pen/xxZEmOb |
 | 6  | Consultar una capa de entidades             | https://codepen.io/cidryl/pen/dyGOmrb |
 | 7  | Filtrar una capa de entidades               | https://codepen.io/cidryl/pen/ExPZGLz |
-| 8  | Agregar una capa de un elemento             | |
-| 9  | Mostrar un mapa base vectorial con estilo   | |
-| 10 | Mostrar un mapa web                         | x |
+| 8  | Agregar una capa de un elemento             | https://codepen.io/cidryl/pen/oNbQzNB |
+| 9  | Mostrar un mapa base vectorial con estilo   | https://codepen.io/cidryl/pen/VweVKaz |
+| 10 | Mostrar un mapa web                         | https://codepen.io/cidryl/pen/GRowjNd |
 | 11 | Agregar capas a una escena 3D               | x |
 | 12 | Mostrar una escena web                      | x |
 | 13 | Obtener coordenadas del mapa                | |
