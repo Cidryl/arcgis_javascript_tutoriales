@@ -94,7 +94,7 @@ require([
       contentMap.ui.add(selectFilter, 'top-right');
       
       selectFilter.addEventListener('change', function (event) {
-        /setFeatureLayerFilter(event.target.value);
+        // setFeatureLayerFilter(event.target.value);
         setFeatureLayerViewFilter(event.target.value);
       });
     }
