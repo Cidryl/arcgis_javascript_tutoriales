@@ -40,20 +40,20 @@ Listado de tutoriales con su ubicación en codepen.io
 | 8  | Agregar una capa de un elemento             | https://codepen.io/cidryl/pen/oNbQzNB |
 | 9  | Mostrar un mapa base vectorial con estilo   | https://codepen.io/cidryl/pen/VweVKaz |
 | 10 | Mostrar un mapa web                         | https://codepen.io/cidryl/pen/GRowjNd |
-| 11 | Agregar capas a una escena 3D               | x |
-| 12 | Mostrar una escena web                      | x |
-| 13 | Obtener coordenadas del mapa                | |
-| 14 | Dibujar gráficos                            | |
-| 15 | Agregar, editar y eliminar features         | |
-| 16 | Mostrar gráficos de punto, línea y polígono | |
-| 17 | Muestra y rastrea tu ubicación              | |
-| 18 | Geometría de búfer e intersección           | |
-| 19 | Busca una dirección                         | |
-| 20 | Encuentra lugares                           | |
-| 21 | Indicadores de viaje                        | |
-| 22 | Obtén una ruta y direcciones                | |
-| 23 | Obtenga tiempo de manejo                    | |
-| 24 | Acceda a los servicios con OAuth 2.0        | |
+| 11 | Agregar capas a una escena 3D               | Ver ejemplos anteriores [id: 1 - 3]   |
+| 12 | Mostrar una escena web                      | Ver ejemplos anteriores [id: 1 - 7]   |
+| 13 | Obtener coordenadas del mapa                | https://codepen.io/cidryl/pen/jOqZOKJ |
+| 14 | Dibujar gráficos                            | https://codepen.io/cidryl/pen/vYGdYbp |
+| 15 | Agregar, editar y eliminar features         | https://codepen.io/cidryl/pen/xxVYbbd |
+| 16 | Mostrar gráficos de punto, línea y polígono | https://codepen.io/cidryl/pen/ExKQaym |
+| 17 | Muestra y rastrea tu ubicación              | https://codepen.io/cidryl/pen/NWNyPRQ |
+| 18 | Geometría de búfer e intersección           | https://codepen.io/cidryl/pen/YzqePYJ |
+| 19 | Busca una dirección                         | https://codepen.io/cidryl/pen/KKzQwoz |
+| 20 | Encuentra lugares                           | https://codepen.io/cidryl/pen/ZEWrYmy |
+| 21 | Indicadores de viaje                        | https://codepen.io/cidryl/pen/XWdZJQV |
+| 22 | Obtén una ruta y direcciones                | https://codepen.io/cidryl/pen/JjXpONY |
+| 23 | Obtenga tiempo de manejo                    | https://codepen.io/cidryl/pen/xxVYPME |
+| 24 | Acceda a los servicios con OAuth 2.0        | https://codepen.io/cidryl/pen/ZEWrvbb |
 
 ## Versionado
 

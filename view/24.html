@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Tutorial de ArcGIS JavaScript: Crear una aplicación de inicio de JavaScript</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.15/esri/themes/light/main.css" />
+    <link rel="stylesheet" href="../css/style.css"/>
+  </head>
+  
+  <body>
+    <div id="header">
+      <h1>Acceder a servicios con OAuth 2.0</h1>
+      
+      <small>Cree una aplicación que utilice credenciales de inicio de sesión de usuario designado para acceder a servicios seguros. (<a target="_blank" href="https://developers.arcgis.com/labs/javascript/access-services-with-oauth-2/" title="Access services with OAuth 2.0">ver</a>)</small>
+    </div>
+
+    <div id="Warning">
+      Dentro de codepen.io puede dar el siguiente problema en su ejecución:<br />
+      Refused to display 'https://www.arcgis.com/sharing/oauth2/authorize?client_id=JTpyML5GgvA1jEoo&response_type=token&state=%7B%22portalUrl%22%3A%22https%3A%2F%2Fwww.arcgis.com%22%7D&expiration=20160&redirect_uri=https%3A%2F%2Fcdpn.io%2Fboomboom%2Fv2%2Findex.html%3Fkey%3DiFrameKey-84c13102-5496-0501-e371-156e9118149b' in a frame because it set 'X-Frame-Options' to 'sameorigin'.
+    </div>
+
+    <div id="Steps">
+      <h3>Preconfigure OAuth 2.0 para su aplicación (esto son pasos previos para la ejecución de este ejercicio)</h3>
+      <ol>
+        <li><a href="https://developers.arcgis.com/sign-in/?redirect_uri=%2Fsign-in%2F" target="_blank">Inicie sesión</a> en su cuenta de ArcGIS. Si aún no tiene uno, <a href="https://developers.arcgis.com/sign-up/" target="_blank">regístrese</a> gratis.</li>
+        <li>
+          En la parte superior derecha del <strong>menú principal</strong>, haga clic en <strong> + > Nueva aplicación > Crear nueva aplicación</strong>
+          <ul>
+            <li><strong>Título:</strong> <i>Access Premium Services App</i></li>
+            <li><strong>Etiquetas:</strong> <i>OAuth</i></li>
+            <li><strong>Descripción:</strong> <i>Access Premium Services App</i></li>
+            <li>Haga clic en <strong>Registrar nueva aplicación</strong></li>
+          </ul>
+        </li>
+        <li>
+          Haga clic en la <strong>pestaña Autenticación</strong> para agregar <i>localhost</i> o <i>servername</i> para el URI de redireccionamiento:
+          <ul>
+            <li><strong>Redirigir URI</strong> <i>http://localhost/</i></li>
+          </ul>
+        </li>
+        <li>Copie el valor de <strong>ID de cliente</strong>, ya que lo necesitará en el siguiente paso.</li>
+      </ol>
+    </div>
+
+    <div id="OAuth">
+      <div id="anonymousPanel" style="display: block; padding: 5px; text-align: center;">
+        <span id="sign-in" class="action">Ingresar</span> para ver el tráfico en vivo.
+      </div>
+
+      <div id="personalizedPanel" style="display: none; padding: 5px; text-align: center;">
+        Bienvenido <span id="userId" style="font-weight: bold;"></span> &nbsp;-&nbsp;
+        <span id="sign-out" class="action">Salir</span>
+      </div>
+    </div>
+    
+    <div id="mapView" style="display: none;"></div>
+    
+    <div id="sceneView" style="display: none;"></div>
+    
+    <script src="https://js.arcgis.com/4.15/"></script>
+    <script src="../js/24.js"></script>
+  </body>
+</html>

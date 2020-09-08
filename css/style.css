@@ -18,3 +18,20 @@ html, body {
   margin-left: 25px;
   padding-bottom: 5px;
 }
+
+/* Ejercicio 21 -22 */
+.esri-view .esri-directions {
+  position: fixed;
+  right: 15px;
+}
+
+.esri-view .esri-component.esri-attribution {
+  position: fixed;
+}
+
+/* Ejercicio 24 */
+.action {
+  color: #0000ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
